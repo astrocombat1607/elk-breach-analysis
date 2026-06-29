@@ -51,4 +51,12 @@ Where a phase had no supporting evidence, this was explicitly documented rather 
 - Single telemetry source (Winlogbeat only) — no packet-level corroboration available for C2 or exfiltration volume
 - Some process command-line fields were truncated, limiting full command attribution for certain LOLBin activity
 
-## Repository Contents
+## Why This Project Matters
+
+This was my first end-to-end SIEM-based incident investigation. It pushed me to think like an analyst — anchoring every claim to a timestamp and log ID, explicitly documenting where evidence was absent rather than guessing, and building a defensible chain of evidence from first compromise through to long-term persistence. It directly reflects the kind of detection-and-response work I want to do professionally.
+
+## References
+
+- [Lockheed Martin Cyber Kill Chain®](https://www.lockheedmartin.com/en-us/capabilities/cyber/cyber-kill-chain.html)
+- [MITRE ATT&CK®](https://attack.mitre.org/)
+- [Kibana Query Language — Elastic Docs](https://www.elastic.co/docs/explore-analyze/query-filter/languages/kql)
